@@ -22,7 +22,7 @@
             </TabItem>
             <TabItem Header='Dunwoody Housing' Margin='64,-2,-83.8,0'>
 
-                <Grid Background='#FFE5E5E5' Margin='0,-1,0,1.2'/>
+                <Grid  Margin='0,-1,0,1.2'/>
             </TabItem>
             <TabItem Header='Another House ' Margin='97.8,-2,-122.8,0'>
                 <StackPanel>
