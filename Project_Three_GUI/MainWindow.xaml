@@ -11,7 +11,7 @@
                 <Image Height='100' Width='100'/>
             </InlineUIContainer><InlineUIContainer/></TextBlock>
         <TabControl MinHeight='300'>
-            <TabItem Header='This House ' Margin='-2,-2,-35,0'>
+            <TabItem Header='Student Housing  ' Margin='-2,-2,-35,0'>
                 <Grid Background='#FFE5E5E5'>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width='85*'/>
@@ -20,7 +20,7 @@
                     </Grid.ColumnDefinitions>
                 </Grid>
             </TabItem>
-            <TabItem Header='That House' Margin='64,-2,-83.8,0'>
+            <TabItem Header='Dunwoody Housing' Margin='64,-2,-83.8,0'>
 
                 <Grid Background='#FFE5E5E5' Margin='0,-1,0,1.2'/>
             </TabItem>
