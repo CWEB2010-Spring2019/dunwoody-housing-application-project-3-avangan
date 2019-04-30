@@ -1,0 +1,84 @@
+﻿<Window x:Class="Dunwoody_Housing_App_Nick.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dunwoody_Housing_App_Nick"
+        mc:Ignorable="d"
+           Title="" Height="450" Width="800" FontSize="14" Background="white">
+    <Grid Name="Header" Width="auto" Height="100" VerticalAlignment="Top" Background="white" Margin='0,0,-0.4,0'>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width='75*' />
+            <ColumnDefinition Width='719*'/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Image Source='Images/DunHead.jpg' Margin='0,0,-0.4,0' Grid.ColumnSpan='2'>
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+
+
+        <TabControl HorizontalAlignment="Left" Height="295" Margin="30,110,0,-305" VerticalAlignment="Top" Width="736" Grid.ColumnSpan='2'>
+            <TabItem Header="Add New" Width="100">
+                <Grid Background="White" Name="Add_new_grid" Margin='0,2,0.4,-2.2'>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width='24*'/>
+                        <ColumnDefinition Width='100*'/>
+                        <ColumnDefinition Width='11*'/>
+                        <ColumnDefinition Width='11*'/>
+                        <ColumnDefinition Width='11*'/>
+                        <ColumnDefinition Width='83*'/>
+                        <ColumnDefinition Width='18*'/>
+                        <ColumnDefinition Width='97*'/>
+                        <ColumnDefinition Width='36*'/>
+                        <ColumnDefinition Width='339*'/>
+                    </Grid.ColumnDefinitions>
+
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="42,56,0,0" TextWrapping="Wrap" Text="First Name:" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.484,-1.208" Grid.ColumnSpan='3' Grid.Column='1'/>
+                    <TextBox Name="FormFirstName" HorizontalAlignment="Left" Height="23" Margin="27.2,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Grid.Column='5' Grid.ColumnSpan='3'/>
+
+                    <TextBlock HorizontalAlignment="Left" Margin="42,95,0,0" TextWrapping="Wrap" Text="Last Name:" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.484,-1.208" Grid.ColumnSpan='3' Grid.Column='1'/>
+                    <TextBox Name="FormLastName" HorizontalAlignment="Left" Height="23" Margin="27.2,94,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Grid.Column='5' Grid.ColumnSpan='3' TextChanged='LastName_TextChanged'/>
+
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="95.4,56,0,0" TextWrapping="Wrap" Text="Floor:" VerticalAlignment="Top" Width="95" RenderTransformOrigin="0.484,-1.208" Grid.Column='7' Grid.ColumnSpan='3'/>
+
+
+                    <TextBlock HorizontalAlignment="Left" Margin="96.6,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" RenderTransformOrigin="0.484,-1.208" Grid.Column='7' Grid.ColumnSpan='3'/>
+                    <Button Grid.ColumnSpan='3' Content='Submit' Grid.Column='5' HorizontalAlignment='Left' Margin='27.2,223,0,0' VerticalAlignment='Top' Width='120' Click='Button_Click'/>
+                    <ComboBox Name='floor_combo' Grid.Column='9' HorizontalAlignment='Left' Margin='57.6,56,0,0' VerticalAlignment='Top' Width='121' SelectionChanged='Floor_combo_SelectionChanged'>
+                        
+
+                    </ComboBox>
+                    <TextBox Grid.ColumnSpan='3' Grid.Column='5' HorizontalAlignment='Left' Height='23' Margin='27.2,132,0,0' TextWrapping='Wrap' Name='id'  VerticalAlignment='Top' Width='120' TextChanged='TextBox_TextChanged_2'/>
+                    <TextBlock Grid.Column='1' HorizontalAlignment='Left' Margin='42,133,0,0' TextWrapping='Wrap' Text='Student Id' VerticalAlignment='Top' Grid.ColumnSpan='4' Width='90'/>
+                    <Label Content='Label' Grid.Column='1' HorizontalAlignment='Left' Margin='90,23,0,0' VerticalAlignment='Top'/>
+                    <RadioButton Content='Worker' Name='Worker' HorizontalAlignment='Left' Margin='37.8,23,0,0' VerticalAlignment='Top' Width='100' Checked='RadioButton_Checked_1' Grid.Column='1' Grid.ColumnSpan='5'/>
+                    
+                    <RadioButton Name='Ath' Content='Athlete' Grid.Column='3' HorizontalAlignment='Left' Margin='4.6,23,0,0' VerticalAlignment='Top' Checked='RadioButton_Checked_2' Grid.ColumnSpan='3'/>
+                    
+                    <RadioButton Grid.ColumnSpan='3' Name='scholar' Content='Scholarship ' Grid.Column='5' HorizontalAlignment='Left' Margin='58.2,23,0,0' VerticalAlignment='Top' Width='97' Checked='RadioButton_Checked_3'/>
+                    <TextBox Grid.Column='9' Name='room_txtbx' HorizontalAlignment='Left' Height='23' Margin='58.6,95,0,0' TextWrapping='Wrap'  VerticalAlignment='Top' Width='120' TextChanged='TextBox_TextChanged_1'/>
+                    <Label Name='room' Content='Room' Grid.Column='7' HorizontalAlignment='Left' Margin='89.4,90,0,0' VerticalAlignment='Top' Width='64' Grid.ColumnSpan='3'/>
+                    <TextBox Name='rent' Grid.Column='9' HorizontalAlignment='Left' Height='23' Margin='57.6,139,0,0' TextWrapping='Wrap' VerticalAlignment='Top' Width='120' TextChanged='TextBox_TextChanged_2'/>
+                    <Label Grid.ColumnSpan='3' Content='Rent' Grid.Column='7' HorizontalAlignment='Left' Margin='94.4,135,0,0' VerticalAlignment='Top' Width='100'/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Search" Width="100">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="View All" Width="100">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Height="200" Margin="40,30,40,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

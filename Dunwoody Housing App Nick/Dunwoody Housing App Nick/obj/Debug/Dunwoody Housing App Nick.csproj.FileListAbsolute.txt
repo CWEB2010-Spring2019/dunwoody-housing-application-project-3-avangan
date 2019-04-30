@@ -1,0 +1,17 @@
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.csprojAssemblyReference.cache
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Enter.g.cs
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\MainWindow.g.cs
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\App.g.cs
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick_MarkupCompile.cache
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick_MarkupCompile.lref
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\bin\Debug\Dunwoody Housing App Nick.exe.config
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\bin\Debug\Dunwoody Housing App Nick.exe
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\bin\Debug\Dunwoody Housing App Nick.pdb
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Enter.baml
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\MainWindow.baml
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.g.resources
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody_Housing_App_Nick.Properties.Resources.resources
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.csproj.GenerateResource.cache
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.csproj.CoreCompileInputs.cache
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.exe
+C:\Users\kozjohn\Source\Repos\Dunwoody Housing App Nick\Dunwoody Housing App Nick\obj\Debug\Dunwoody Housing App Nick.pdb
